@@ -1,8 +1,12 @@
 package main
 
+import (
+	"log"
+)
+
 func main() {
+	names := []string{"one", "seven", "fish", "dog"}
 
-	numbers := []int{1, 2, 3, 4, 5, 6, 7, 8}
+	log.Println(names)
 
-	log
 }
